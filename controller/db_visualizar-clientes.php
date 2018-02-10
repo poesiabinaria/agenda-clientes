@@ -1,6 +1,6 @@
 <?php
 
-function visualizaraClientes($id){
+function visualizarClientes($id){
 
 	include_once "includes/database/db.php";
 
@@ -10,10 +10,10 @@ function visualizaraClientes($id){
 
 	if (mysqli_num_rows($result) > 0) {
 	    while($row = mysqli_fetch_assoc($result)) {
-	    	echo "<p>Nome: " . $row['nome'] . "</p>" .
-				"<p>E-mail: "  . $row['email'] . "</p>" .
-				"<p>Telefone: "  . $row['telefone'] . "</p>" .
-				"<p>Descrição: "  . $row['descricao'] . "</p>";
+	    	echo "<p class='titulo-pag-descr'>Nome:</p>" . "<p>" . $row['nome'] . "</p>" .
+				"<p class='titulo-pag-descr'>E-mail:</p>"  . "<p>" . $row['email'] . "</p>" .
+				"<p class='titulo-pag-descr'>Telefone:</p>"  . "<p>" . $row['telefone'] . "</p>" .
+				"<p class='titulo-pag-descr'>Descrição:</p>"  . "<p>" . $row['descricao'] . "</p>";
 	    }
 	} else { echo "0 results"; };
 

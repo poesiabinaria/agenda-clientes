@@ -18,7 +18,7 @@
 
 			<div class='box-descricao-clientes'>
 				<?php 
-					visualizaraClientes($_GET['id']); 
+					visualizarClientes($_GET['id']); 
 				?>
 			</div>
 						
