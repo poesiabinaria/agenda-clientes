@@ -22,7 +22,7 @@
 				
 				<div class="box-botoes">
 					<a href="listar-clientes.php">
-						<button class="botao-pequeno" type="button"> Mostrar Clientes </button>
+						<button id="botao-pequeno-index" class="botao-pequeno" type="button"> Mostrar Clientes </button>
 					</a>
 				</div>
 			</div>

@@ -11,6 +11,10 @@ body {
 	color: white;
 }
 
+a{
+	color: black;
+}
+
 h1 {
 	font-size: 16px;
 	font-weight: 700;
@@ -86,6 +90,10 @@ a{ color: white; }
 	padding: 6px 10px;
 	border-radius: 0;
 	margin-top: 60px;
+}
+
+#botao-pequeno-index {
+	margin-top: 0;
 }
 
 .botao-pequeno:hover{ background-color: #925ee0; }
@@ -172,11 +180,14 @@ header{ margin-top: -85px; }
 
 
 
-footer p {
+footer p{
 	font-size: 10px;
 	text-align: right;
 	margin-right: 10px;	
+	color: #999999;
 }
+
+footer a { color: #999999; }
 
 
 

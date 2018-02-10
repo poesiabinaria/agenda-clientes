@@ -1,5 +1,10 @@
 <?php
 
+// $serverName = 'localhost';
+// $userName = 'root';
+// $password = '';
+// $dbName = 'agendaclientes';
+
 $serverName = 'us-cdbr-iron-east-05.cleardb.net';
 $userName = 'b0944efd1aaf6a';
 $password = '7ba0d3b2';
