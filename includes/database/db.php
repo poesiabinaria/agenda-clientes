@@ -1,9 +1,9 @@
 <?php
 
-$serverName = 'localhost';
-$userName = 'root';
-$password = '';
-$dbName = 'agendaclientes';
+$serverName = 'us-cdbr-iron-east-05.cleardb.net';
+$userName = 'b0944efd1aaf6a';
+$password = '7ba0d3b2';
+$dbName = 'heroku_ccd040a127862f6';
 
 $connection = mysqli_connect($serverName, $userName, $password, $dbName);
 
