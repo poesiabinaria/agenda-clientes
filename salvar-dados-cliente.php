@@ -1,6 +1,6 @@
 <?php
 
-include_once "includes/bd.php";
+include_once "includes/database/db.php";
 
 $nomeCliente = $_POST['nome-cliente'];
 $emailCliente = $_POST['email-cliente'];
